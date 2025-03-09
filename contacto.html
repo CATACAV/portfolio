@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="peliculas.html">Películas</a></li>
+                <li class="nav-link active"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titulo-perfil-contacto">
+            <h1>Catalina Aróstegui</h1>
+            <h2>Distribución de cine</h2>
+        </div>
+        <section id="contact">
+            <form id="contact-form">
+                <fieldset>
+                    <legend><b>Datos de contacto</b></legend>
+                    <p>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido">
+                    </p>
+                    <p>
+                        <label for="age">Edad</label>
+                        <input type="number" name="age" id="age">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="language">Idioma</label>
+                        <select name="language" id="language">
+                            <option value="eus">Euskera</option>
+                            <option value="es">Castellano</option>
+                            <option value="en">English</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <fieldset class="datos-empresa">
+                    <p>
+                        <label for="empresa">Nombre de empresa</label>
+                        <input type="text" name="empresa" id="empresa">
+                    </p>
+                    <p>
+                        <label for="puesto">Puesto</label>
+                        <input type="text" name="puesto" id="puesto">
+                    </p>
+                    <legend><b>Datos de empresa</b></legend>
+                    <div class="cargo-industria">
+                        <label for="cargo">Cargo de industria</label>
+                        <select name="cargo" id="cargo">                     
+                       <option value="prod">Producción</option>
+                            <option value="dist">Distribución</option>
+                            <option value="ventas">Agencia de ventas</option>
+                            <option value="exhib">Exhibición</option>
+                            <option value="Prensa">Prensa</option>
+                            <option value="Asociación">Asociación</option>
+                            <option value="Filmcom">Film Comission</option>
+                            <option value="instit">Institución</option>
+                        </select>  
+                        </datalist>
+                    </div>
+
+                </fieldset>
+                <div class="textarea">
+                    <label for="content">¿A qué festivales vas a acudir?</label>
+                    <textarea name="content" id="content" cols="20" rows="10"></textarea>
+                </div>
+                <div class="catalogo-input">
+                    <label for="subscribe">Recibe el catálogo completo</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <nav class="navfoot">
+            <ul class="contacto-lista">
+                <li class="contacto-link">
+                    <a href="https://es.linkedin.com/in/catalina-ar%C3%B3stegui-11034513b" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #fff8e7;"></i>
+                    </a>
+                </li>
+                <li class="contacto-link">
+                    <a href="https://www.youtube.com/@vitrinefilmes2477" target="_blank">
+                        <i class="fa-brands fa-youtube" style="color: #fff8e7;"></i>
+                    </a>
+                </li>
+                <li class="contacto-link">
+                    <a href="https://letterboxd.com/catacavero/" target="_blank">
+                        <i class="fa-brands fa-letterboxd" style="color: #fff8e7;"></i>
+                    </a>
+                </li>
+                <li class="contacto-link">
+                    <a href="https://vimeo.com/700783844" target="_blank">
+                        <i class="fa-brands fa-vimeo" style="color: #fff8e7;"></i> </a>
+                </li>
+            </ul>
+        </nav>
+
+    </footer>

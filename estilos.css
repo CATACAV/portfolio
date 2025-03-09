@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*  HEADER */
+
+header {
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: #c14521;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #fff8e7;
+    font-size: 18px;
+}
+
+.active {
+    background-color: #fff8e7;
+}
+
+.active a {
+    color: #c14521;
+}
+
+
+/* HOME */
+
+.user-info--image{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.profile-image{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.titulo-perfil{
+    margin: 1.5rem 0 0 2rem;
+}
+.titulo-perfil h2{
+    font-size: 20px;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    background-color: #fff8e7;
+    padding-bottom: 3rem;
+}
+
+.profile-description{
+    margin: 0 2rem 2rem 2rem;
+}
+
+
+/* FOOTER */
+
+footer * {
+    display: flex;
+}
+
+footer {
+    background-color:#c14521;
+    height: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+.contacto-link {
+    margin: 0 2rem;
+}
+
+.contacto-link a{
+    text-decoration: none;
+}
+
+footer p{
+    color: #fff8e7;
+}
+
+footer nav ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.contacto-link {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* PELICULAS */
+
+main {
+    background-color: #fff8e7;
+    height: 70%;
+}
+
+.pelicula__info h2 {
+    height: 30px;
+}
+
+.pelicula__info h3 {
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.proyectos>h2 {
+    text-align: center;
+    height: 40px;
+    margin-top: 1rem;
+}
+
+.peliculas-lista {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+
+}
+
+.pelicula {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.pelicula>img {
+    width: 100%;
+}
+
+.pelicula__info {
+    padding: 1rem;
+}
+
+.texto {
+    height: 180px;
+    overflow-y: auto;
+}
+
+
+.materiales-boton {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px solid #c14521;
+    background-color: #fff8e7;
+}
+
+.materiales-boton button {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.boton{
+    background-color: #c14521;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff8e7;
+    cursor: pointer;
+}
+
+
+.pelicula__info p {
+    margin-top: 1rem;
+}
+
+.festivales-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.festivales-logos img {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+
+/* CONTACTO */
+
+#contact-form{
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.textarea{
+    margin-top: 2rem;
+}
+
+.datos-empresa{
+    margin-top: 2rem;
+}
+
+.catalogo-input{
+    margin-top: 0.5rem;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-perfil-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+@media (min-width:768px) {
+    .pelicula {
+        width: 50%;  
+    }
+
+    .pelicula {
+        width: 48%;
+    }
+
+    .profile-image{
+        width: 50%;
+    }
+
+    .profile-description{
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    .titulo-perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .pelicula {
+        width: 30%;
+    }
+}
