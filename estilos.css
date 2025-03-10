@@ -277,4 +277,13 @@ main {
     .pelicula {
         width: 30%;
     }
+
+    .profile-image{
+        width: 30%;
+    }
+
+    .profile-description{
+        margin: 0 25rem 5rem 25rem;
+    }
+
 }
